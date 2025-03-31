@@ -5,7 +5,7 @@ project:
   tags:
     - neuroscience
     - deep_learning
-  homepage: https://github.com/BRAINML-GT/allen-v1
+  homepage: https://github.com/BRAINML-GT/onehot-hmmglm
 
 environment:
   dependencies:
