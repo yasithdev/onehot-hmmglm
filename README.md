@@ -15,4 +15,4 @@ pip install -e .
 ## 2 Tutorial
 `demo.ipynb` is a step-by-step tutorial that run naive HMM-GLM, Gaussian HMM-GLM, and one-hot HMM-GLM on a synthetic dataset.
 
-[Open in Cybershuttle](https://hub.cybershuttle.org/hub/spawn/pjaya001@odu.edu/onehot-hmm-glm?git=https://github.com/yasithdev/onehot-hmmglm&dataPath=onehot-hmm-glm)
+[Open in Cybershuttle](https://hub.cybershuttle.org/hub/spawn/pjaya001@odu.edu/onehot-hmmglm?git=https://github.com/yasithdev/onehot-hmmglm&dataPath=onehot-hmmglm)
