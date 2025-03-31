@@ -1,0 +1,33 @@
+project:
+  name: One-hot Generalized Linear Model for Switching Brain State Discovery
+  version: 1.0.0
+  description: This repository contains the code for the paper "One-hot Generalized Linear Model for Switching Brain State Discovery (ICLR 2024)"
+  tags:
+    - neuroscience
+    - deep_learning
+  homepage: https://github.com/BRAINML-GT/allen-v1
+
+environment:
+  dependencies:
+    - python=3.10
+    - pip
+    - numpy
+    - pandas
+    - matplotlib
+    - seaborn
+    - tqdm
+    - torch
+    - pip:
+        - -e .
+
+workspace:
+  location: /workspace
+  resources:
+    min_cpu: 16
+    min_gpu: 0
+    min_mem: 16G
+    min_disk: 32G
+  data_sources:
+    - type: cybershuttle
+      identifier: <SUBSTITUTE_CORRECT_ID>
+      mount_point: /workspace/data
