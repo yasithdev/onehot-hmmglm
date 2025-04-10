@@ -23,14 +23,8 @@ workspace:
 
 additional_dependencies:
   conda:
-    - python
+    - python=3.10
     - pip
     - ipywidgets
-    - numba
-    - numpy
-    - matplotlib
-    - pandas
-    - scipy
-    - tqdm
-    - torch
-  pip: []
+  pip:
+    - git+https://github.com/cyber-shuttle/onehot-hmmglm#subdirectory=hmmglm
