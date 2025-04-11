@@ -26,5 +26,6 @@ additional_dependencies:
     - python=3.10
     - pip
     - ipywidgets
+    - seaborn
   pip:
     - git+https://github.com/cyber-shuttle/onehot-hmmglm#subdirectory=hmmglm
